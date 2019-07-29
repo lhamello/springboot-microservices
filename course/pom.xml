@@ -12,7 +12,6 @@
 		<relativePath>../</relativePath>		
 	</parent>
 	
-	<groupId>br.com.lhamello</groupId>
 	<artifactId>spring-boot-microservices-course</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
