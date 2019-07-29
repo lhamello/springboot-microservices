@@ -22,7 +22,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>br.com.lhamello</groupId>
-			<artifactId>spring-boot-microservices</artifactId>
+			<artifactId>spring-boot-microservices-core</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
