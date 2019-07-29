@@ -1,11 +1,11 @@
-package br.com.lhamello.springbootmicroservices.endpoint.service;
+package br.com.lhamello.springbootmicroservices.course.endpoint.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import br.com.lhamello.springbootmicroservices.model.Course;
-import br.com.lhamello.springbootmicroservices.repository.CourseRepository;
+import br.com.lhamello.springbootmicroservices.core.model.Course;
+import br.com.lhamello.springbootmicroservices.core.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

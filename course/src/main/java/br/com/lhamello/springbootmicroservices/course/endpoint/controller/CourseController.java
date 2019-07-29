@@ -1,4 +1,4 @@
-package br.com.lhamello.springbootmicroservices.endpoint.controller;
+package br.com.lhamello.springbootmicroservices.course.endpoint.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.lhamello.springbootmicroservices.endpoint.service.CourseService;
-import br.com.lhamello.springbootmicroservices.model.Course;
+import br.com.lhamello.springbootmicroservices.core.model.Course;
+import br.com.lhamello.springbootmicroservices.course.endpoint.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
