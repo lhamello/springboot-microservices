@@ -8,9 +8,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EntityScan({"br.com.lhamello.springbootmicroservices.core.model"})
 @EnableJpaRepositories({"br.com.lhamello.springbootmicroservices.core.repository"})
-public class SpringBootMicroserivesApplication {
+public class CourseApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SpringBootMicroserivesApplication.class, args);
+    SpringApplication.run(CourseApplication.class, args);
   }
 }
